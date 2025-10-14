@@ -1,0 +1,39 @@
+{
+  "siteTitle":"HOSTELHUB",
+  "searchPlaceholder":"Shakira amahosteli, aho ari, ubwoko...",
+  "userProfile":"Profaili y’Umukoresha",
+  "yourPayments":"Amafaranga Yawe",
+  "viewPrintAll":"Reba/Capira Inyandiko Zose",
+  "send":"Ohereza",
+  "logout":"Sohoka",
+  "users":"Abakoresha",
+  "hostels":"Amahosteli",
+  "bookings":"Amabooking",
+  "payments":"Amafaranga",
+  "statistics":"Ibipimo",
+  "messages":"Ubutumwa",
+  "admins":"Abayobozi",
+  "welcomeAdmin":"Twarakaze, Umuyobozi!",
+  "about":"Ivyo twamenya",
+  "terms":"Amategeko",
+  "myProfile":"Profaili Yanje",
+  "help":"Ubufasha",
+  "login":"Injira",
+  "adminLogin":"Injira Admin",
+  "register":"Iyandikishe",
+  "footerText":"© 2025 HostelHub. Kunyaruka nʼurumuri ✨",
+  "rateExperience":"Tora ivyiyumviro vyawe",
+  "clearConversation":"Siba ibiganiro",
+  "complaintsTitle":"Amaganya / Ibiganiro na Admin",
+  "startConversation":"Tangira ikiganiro na admin. Ubutumwa buzogumaho gushika bwosibwe."
+  ,"loadingHostel":"Loading hostel..."
+  ,"mobileNetwork":"Mobile Money Network:"
+  ,"selectNetwork":"Select Network"
+  ,"countryCode":"Country Code:"
+  ,"uganda":"Uganda (+256)"
+  ,"kenya":"Kenya (+254)"
+  ,"tanzania":"Tanzania (+255)"
+  ,"phoneNumberPlaceholder":"Phone Number"
+  ,"amountPlaceholder":"Amount"
+  ,"completePayment":"Complete Payment"
+}
