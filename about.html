@@ -64,11 +64,56 @@ footer { background: linear-gradient(45deg, #452B1F, #ff4d4d, #ffb84d, #452B1F);
   .header-center { font-size:1.6rem; }
   .container { margin:120px 20px 60px 20px; padding:25px; }
 }
+
+nav ul {
+  list-style: none;          /* Removes bullets */
+  display: flex;             /* Align items horizontally */
+  justify-content: center;   /* Centers the links horizontally */
+  align-items: center;       /* Centers them vertically */
+  margin: 0;
+  padding: 0;
+  background-color: #00247d; /* Optional: background color for nav */
+}
+
+nav li {
+  margin: 0 15px; /* Spacing between each link */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background: #ffd700;  /* Yellow hover effect */
+  color: #00247d;       /* Blue text on hover */
+  border-radius: 5px;
+}
+
+
 </style>
 </head>
 <body>
 
   <title>About Us - HostelHub</title>
+  <!-- ===== NAVIGATION ===== -->
+<nav>
+  <ul>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="terms.html">Terms</a></li>
+    <li><a href="bookings.html">Bookings</a></li>
+    <li><a href="profile.html">My Profile</a></li>
+    <li><a href="help.html">Help</a></li>
+    <li><a href="hostels.html">Hostels</a></li>
+    <li><a href="login.html">Login</a></li>
+   <li><a href="admin-login.html">Admin Login</a></li>
+     <li><a href="register.html">Register</a></li>
+  </ul>
+</nav>
 <!-- i18n removed -->
 <div id="aquarium">
   <div class="light-ray"></div>
@@ -78,20 +123,7 @@ footer { background: linear-gradient(45deg, #452B1F, #ff4d4d, #ffb84d, #452B1F);
 <div class="container">
   <div class="header-row">
     <div class="header-side" style="position:relative;">
-      <span id="dashboardIcon"><img src="dashboard.png" alt="Dashboard" class="header-icon-img"></span>
-      <div id="dashboardMenu">
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="terms.html">Terms & Conditions</a></li>
-          <li><a href="help.html">Help & FAQs</a></li>
-          <li><a href="hostels.html">Available Hostels</a></li>
-          <li><a href="bookings.html">Bookings</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><button id="userLogoutBtn" style="background:#ff4d4d;color:#fff;border:none;border-radius:8px;padding:6px 16px;cursor:pointer;width:100%;text-align:left;">Logout</button></li>
-        </ul>
-      </div>
+     
     </div>
     <div class="header-center">HOSTELHUB</div>
     <div class="header-side">
